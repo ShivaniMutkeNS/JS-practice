@@ -50,10 +50,10 @@ const TASupport = {
     __proto__: TeachingSupport
 }
 
-Teacher.__proto__ = User
+Teacher.__proto__ = User//extending
 
 // modern syntax
-Object.setPrototypeOf(TeachingSupport, Teacher)
+Object.setPrototypeOf(TeachingSupport, Teacher)//extending
 
 let anotherUsername = "ChaiAurCode     "
 

@@ -33,15 +33,15 @@
 
     // document.getElementById('images').addEventListener('click', function(e){
     //     console.log("clicked inside the ul");
-    // }, false)
+    // }, false)//false will give idea of bubbing inner to outer even and tru will give outer to inner event
 
     // document.getElementById('owl').addEventListener('click', function(e){
     //     console.log("owl clicked");
-    //     e.stopPropagation()
+    //     e.stopPropagation()// method of the Event interface prevents further propagation of the current event in the capturing and bubbling phases.
     // }, false)
     
     // document.getElementById('google').addEventListener('click',function(e){
-    //     e.preventDefault();
+    //     e.preventDefault();//stop default behavior like href
     //     e.stopPropagation()
     //     console.log("google clicked");
     // }, false)
@@ -52,7 +52,7 @@
         if (e.target.tagName === 'IMG') {
             console.log(e.target.id);
             let removeIt = e.target.parentNode
-            removeIt.remove()
+            removeIt.remove() //removing if we click it
         }
     
         

@@ -22,7 +22,8 @@ console.log(chai.encryptPassword());
 console.log(chai.changeUsername());
 
 // behind the scene
-
+//creating own prototype function so if we define in object then we can use it all because
+//(array,class,function) -> (object)-> null
 function User(username, email, password){
     this.username = username;
     this.email = email;

@@ -11,6 +11,7 @@ const user = {
 
 }
 
+//creating object
 
 
 //console.log(user.username)
